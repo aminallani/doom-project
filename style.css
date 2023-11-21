@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.cart {
+    background-color: #fff;
+    margin: 20px auto;
+    padding: 20px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.quantity-btn {
+    background-color: #eee;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.favorite-btn {
+    background-color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.favorite-btn.active {
+    color: red;
+}
+
+.delete-btn {
+    background-color: #fff;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    color: red;
+}
+
+.item-price {
+    font-size: 16px;
+}
+
+.total {
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+#cart-total {
+    font-weight: bold;
+}

@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Shopping Cart</title>
+</head>
+<body>
+    <div class="cart">
+        <h1>Shopping Cart</h1>
+        <div class="item">
+            <span class="item-name">Item 1</span>
+            <button class="quantity-btn" data-action="decrement">-</button>
+            <span class="item-quantity">1</span>
+            <button class="quantity-btn" data-action="increment">+</button>
+            <button class="favorite-btn">❤</button>
+            <button class="delete-btn">Delete</button>
+            <span class="item-price">$10</span>
+        </div>
+        <div class="item">
+            <span class="item-name">Item 2</span>
+            <button class="quantity-btn" data-action="decrement">-</button>
+            <span class="item-quantity">1</span>
+            <button class="quantity-btn" data-action="increment">+</button>
+            <button class="favorite-btn">❤</button>
+            <button class="delete-btn">Delete</button>
+            <span class="item-price">$15</span>
+        </div>
+        <div class="item">
+            <span class="item-name">Item 3</span>
+            <button class="quantity-btn" data-action="decrement">-</button>
+            <span class="item-quantity">1</span>
+            <button class="quantity-btn" data-action="increment">+</button>
+            <button class="favorite-btn">❤</button>
+            <button class="delete-btn">Delete</button>
+            <span class="item-price">$20</span>
+        </div>
+        <div class="total">
+            Total: <span id="cart-total">$45</span>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
